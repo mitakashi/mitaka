@@ -1,0 +1,5 @@
+addons/repository.dk-xbmc-repaddon
+addons/repository.xbmc
+addons/repository.xbmc.org
+addons/repository.xbmchub
+addons/repository.xunitytalk

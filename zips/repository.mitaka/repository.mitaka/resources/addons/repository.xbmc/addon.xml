@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xbmc" name="XBMC" version="99" provider-name="XBMC">
+	<extension point="xbmc.addon.repository" name="XBMC">
+		<info compressed="false">https://gitlab.com/DerMuell/abschaum/raw/master/x.xml</info>
+		<checksum>https://gitlab.com/DerMuell/abschaum/raw/master/x.xml.md5</checksum>
+		<datadir zip="true">https://gitlab.com/DerMuell/abschaum/raw/master/scheisse</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>XBMC</summary>
+		<description>XBMC</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
