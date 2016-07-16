@@ -287,6 +287,18 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
+	<addon id="repository.vietccloud" name="VietcCloud Repository" version="1.0.1" provider-name="vietccloud">
+		<extension point="xbmc.addon.repository" name="vietcCloud Addon Repository">
+			<info compressed="false">https://github.com/vietccloudtv/repository.vietccloud/raw/master/addons.xml</info>
+			<checksum>https://github.com/vietccloudtv/repository.vietccloud/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/vietccloudtv/repository.vietccloud/raw/master/zips</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Kodi repository</summary>
+			<description>Repository for Kodi</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 	<addon id="repository.vietmedia"
 			name="VietMedia Add-ons"
 			version="1.0.0"
@@ -326,7 +338,7 @@
 		</extension>
 	</addon>
 	<!--- SOURCE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-	<addon id="repository.mitaka" name="Mitaka Repo" version="2.3.4" provider-name="Mitaka">
+	<addon id="repository.mitaka" name="Mitaka Repo" version="2.3.5" provider-name="Mitaka">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.requests" version="2.6.0"/>
