@@ -1,5 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+	<!--- ADDONS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<addon id="plugin.audio.itv.khosachnoi"
+		   version="1.0.0"
+		   name="[COLOR blue]*ITV*[/COLOR]Kho Sách Nói"
+		   provider-name="itv member">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+	  </requires>
+	  <extension point="xbmc.python.module" library="default.py" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>Entertainment</summary>
+		<description>Thử nghiệm nghe đọc sách online tại http://isach.info/</description>
+		<disclaimer lang="en">Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+	<addon id="plugin.audio.itv.music"
+		   version="1.0.1"
+		   name="[COLOR ffff0000]*ITV*[/COLOR]Music"
+		   provider-name="itv member">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0" optional="true" />
+	  </requires>
+	  <extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+	  </extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary>Entertainment</summary>
+		<description>Nghe nhạc online</description>
+		<disclaimer lang="en">Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+	<addon id="plugin.audio.itv.nhacso"
+		   name="[COLOR blue]*ITV*[/COLOR]Nhạc Số"
+		   version="1.0.1"
+		   provider-name="itv member">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.simple.downloader" version="1.9.4" />
+		</requires>
+	  <extension point="xbmc.python.module" library="default.py" />
+	  <extension point="xbmc.addon.metadata">
+			<summary lang="en">Entertainment</summary>
+			<description lang="en">Thử nghiệm nghe nhạc tại http://nhacso.net/</description>
+			<disclaimer lang="en">Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
+			<platform>all</platform>
+			<language>en</language>
+		</extension>
+	</addon>
+	<addon id="plugin.video.itv.fptplay"
+		   version="1.0.8"
+		   name="[COLOR ffff0000]*ITV*[/COLOR]FPTplay"
+		   provider-name="itv member">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.xbmcswift2" version="2.4.0"/>
+	  </requires>
+	  <extension point="xbmc.python.module" library="default.py" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>Entertainment</summary>
+		<description>Thử nghiệm xem các kênh truyền hình tại http://fptplay.net/livetv</description>
+		<disclaimer lang="en">Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+	<addon id="plugin.video.itv.fshare"
+		   version="1.0.5"
+		   name="[COLOR ffff0000]*ITV*[/COLOR]Kho Phim Fshare"
+		   provider-name="itv member">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0" optional="true" />
+	  </requires>
+	  <extension point="xbmc.python.module" library="fshare.py" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>ITV Entertainment</summary>
+		<description>
+		- [COLOR ffff0000]Thank Mr thaitni[/COLOR]
+		- Thử nghiệm xem phim trên server http://fshare.vn/
+		- Để xem được trọn vẹn nội dung các bạn cần đăng nhập tài khoản VIP fshare
+		</description>
+		<disclaimer lang="en">Nguồn data được chia sẻ trên internet. Chúng tôi không chịu mọi trách nhiệm pháp lý.</disclaimer>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+	<addon id="plugin.video.itv.htvonline"
+		   version="1.0.5"
+		   name="[COLOR ffff0000]*ITV*[/COLOR]HTVonline"
+		   provider-name="itv member">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+	  </requires>
+	  <extension point="xbmc.python.module" library="default.py" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>Entertainment</summary>
+		<description>Thử nghiệm xem các kênh truyền hình tại http://www.htvonline.com.vn/</description>
+		<disclaimer lang="en">Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+	<addon id="plugin.video.itv.megatv"
+		   version="1.0.1"
+		   name="[COLOR ffff0000]*ITV*[/COLOR]MyTV"
+		   provider-name="itv member">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.xbmcswift2" version="2.4.0"/>
+		<import addon="script.module.requests" version="1.0" />
+	  </requires>
+	  <extension point="xbmc.python.module" library="default.py" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>Entertainment</summary>
+		<description>Thử nghiệm xem các kênh truyền hình tại http://tv.vnn/vn</description>
+		<disclaimer lang="en">Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+	<addon id="plugin.video.itv.sport"
+		   version="1.0.4"
+		   name="[COLOR ffff0000]*ITV*[/COLOR]Sport"
+		   provider-name="itv member">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+	  </requires>
+	  <extension point="xbmc.python.module" library="default.py" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>Entertainment</summary>
+		<description>Xem các nội dung thể thao được cộng đồng chia sẻ</description>
+		<disclaimer lang="en">Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+	<addon id="plugin.video.vietmediaF"
+		   name="[COLOR green]*[/COLOR]VietMediaF"
+		   version="1.0.25"
+		   provider-name="VietMedia">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simple.downloader" version="1.9.4" />
+		<import addon="plugin.video.youtube" version="4.4.10"/> 
+		</requires>
+		<extension point="xbmc.python.pluginsource"
+				   library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<language>en</language>
+			<summary lang="en">VietMediaF Video Online</summary>
+			<description lang="en">Trung tâm giải trí trực tuyến, xem phim, shows, tivi, ca nhạc, karaoke</description>
+		<disclaimer>Các addon KODI làm ra với mục đích phục vụ cộng đồng miễn phí và các lập trình viên cũng tốn công sức để phục vụ các bạn. Vì vậy, đối với các addon do group làm ra, các bạn xin vui lòng tuân thủ những điều sau:
+	- http://vietmediaf.net
+	- https://www.facebook.com/groups/vietkodi/
+	- Không được sử dụng mã nguồn mà không xin phép tác giả.
+	- Các addon trong repository Vietmedia thuộc quyền sở hữu của tác giả và cũng không mong muốn đưa các addon này vào trong các repository khác.
+	- Không được thay đổi tên, hoặc các thông tin liên quan đến các add-on trong group.
+	- Và có thể thêm các điều khác (chưa nghĩ ra) Biểu tượng cảm xúc smile
+	Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong quá trình phát triển cũng như duy trì những add-on này.</disclaimer>
+		</extension>
+	</addon>
 	<!--- REPOSITORIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 	<addon id="kodi.repo.hcmlike-media" name="HCMLIKE-Media Repository" version="1.0.0" provider-name="HCMLIKE.com">
 		<extension point="xbmc.addon.repository" name="Official XBMC.org Add-on Repository">
