@@ -70,6 +70,32 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
+	<addon id="plugin.audio.vietmediaF"
+		   name="[B]VietMediaF Music[/B]"
+		   version="1.0.2"
+		   provider-name="VietMedia">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.simple.downloader" version="1.9.4" />
+			<import addon="plugin.video.youtube" version="4.4.10"/> 
+			<import addon="script.module.requests" version="1.0" />
+		</requires>
+		<extension point="xbmc.python.pluginsource"
+				   library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<language>en</language>
+			<summary lang="en">VietMediaF Music Online</summary>
+			<description lang="en">Trung tâm giải trí, ca nhạc trực tuyến</description>
+			<disclaimer>Các nguồn nội dung được lấy từ các cá nhân và tổ chức cung cấp miễn phí trên mạng Internet. Add-on không lưu trữ hay sở hữu bất cứ nguồn nội dung nào. Người dùng chịu trách nhiệm hoàn toàn về việc xem các nguồn nội dung này.
+	- http://vietmediaf.net
+	- https://www.facebook.com/groups/vietkodi/
+	- Không được sử dụng mã nguồn mà không xin phép tác giả.
+	- Không được thay đổi tên, hoặc các thông tin liên quan đến các add-on trong group.</disclaimer>
+		</extension>
+	</addon>
 	<addon id="plugin.video.itv.fptplay"
 		   version="1.1.2"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]FPTplay"
