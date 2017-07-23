@@ -846,6 +846,26 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
+	<addon id="script.module.flask"
+		   name="flask"
+		   version="0.11.1"
+		   provider-name="flask">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Flask</summary>
+			<description/>
+			<platform>all</platform>
+			<language/>
+			<license>Apache2</license>
+			<forum/>
+			<website/>
+			<source/>
+			<email/>
+		</extension>
+	</addon>
 	<addon
 	  id="service.kodi4vn.iptvproxy"
 	  version="0.7"
