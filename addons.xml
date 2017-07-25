@@ -268,7 +268,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.livestream.com"
-	  version="0.2"
+	  version="0.2.1"
 	  name="*[COLOR yellow]LiveStream.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
