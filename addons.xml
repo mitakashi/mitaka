@@ -114,7 +114,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fptplay"
-	  version="1.4.1"
+	  version="1.4.2"
 	  name="*[COLOR yellow]FPTPlay Online[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -286,7 +286,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vtvgo"
-	  version="0.12"
+	  version="0.14"
 	  name="*[COLOR yellow]VTV GO[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -298,6 +298,23 @@
 		<extension point="xbmc.addon.metadata">
 			<summary>VTV GO</summary>
 			<description>Watch free vtvgo.vn (Vietnamese)</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
+	  id="plugin.video.phatam"
+	  version="1.0.4"
+	  name="[COLOR white]phatam[/COLOR]"
+	  provider-name="traitravinh">
+		<requires>
+		</requires>
+		<extension point="xbmc.python.pluginsource"
+				library="phatam.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Watch KinhPhat</summary>
+			<description>A-Di-Da-Phat</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -399,7 +416,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="1.0.97"
+		   version="1.0.98"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
@@ -870,7 +887,7 @@
 	</addon>
 	<addon
 	  id="service.kodi4vn.iptvproxy"
-	  version="0.7"
+	  version="0.8"
 	  name="**[COLOR yellow]IPTV Proxy[/COLOR]"
 	  provider-name="kodi4vn">
 		<requires>
