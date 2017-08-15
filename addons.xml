@@ -112,23 +112,6 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-	<addon
-	  id="plugin.video.kodi4vn.fptplay"
-	  version="1.4.2"
-	  name="*[COLOR yellow]FPTPlay Online[/COLOR]"
-	  provider-name="thongld">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0"/>
-			<import addon="script.module.xbmcswift2" version="1.3.1" />
-			<import addon="script.module.requests" version="1" />
-		</requires>
-		<extension point="xbmc.python.module" library="default.py" />
-		<extension point="xbmc.addon.metadata">
-			<summary>FPTPlay</summary>
-			<description>Watch free FPTPlay.net (Vietnamese) Channels</description>
-			<platform>all</platform>
-		</extension>
-	</addon>
 	<addon id="plugin.video.itv.fshare"
 		   version="1.0.9"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]Kho Phim Fshare"
@@ -235,7 +218,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fptplay"
-	  version="1.2"
+	  version="1.4.2"
 	  name="*[COLOR yellow]FPTPlay Online[/COLOR]"
 	  provider-name="thongld">
 		<requires>
