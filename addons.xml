@@ -218,7 +218,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fptplay"
-	  version="1.4.2"
+	  version="1.5"
 	  name="*[COLOR yellow]FPTPlay Online[/COLOR]"
 	  provider-name="thongld">
 		<requires>
