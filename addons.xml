@@ -113,7 +113,7 @@
 		</extension>
 	</addon>
 	<addon id="plugin.video.itv.fshare"
-		   version="1.0.9"
+		   version="1.1.0"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]Kho Phim Fshare"
 		   provider-name="itv member">
 		<requires>
@@ -182,7 +182,7 @@
 		</extension>
 	</addon>
 	<addon id="plugin.video.itv.sport"
-		   version="1.0.9"
+		   version="1.1.0"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]Sport"
 		   provider-name="itv member">
 		<requires>
