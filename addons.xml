@@ -322,23 +322,6 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-	<addon
-	  id="plugin.video.phatam"
-	  version="1.0.4"
-	  name="[COLOR white]phatam[/COLOR]"
-	  provider-name="traitravinh">
-		<requires>
-		</requires>
-		<extension point="xbmc.python.pluginsource"
-				library="phatam.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Watch KinhPhat</summary>
-			<description>A-Di-Da-Phat</description>
-			<platform>all</platform>
-		</extension>
-	</addon>
 	<addon id="plugin.video.tnp.hdplay" name="[COLOR blue][B]HDPlay[/B][/COLOR]" version="1.1.1" provider-name="thanh51">
 		<requires> 
 		</requires>
@@ -437,7 +420,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="1.1.00"
+		   version="1.1.01"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
