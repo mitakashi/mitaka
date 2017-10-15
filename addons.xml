@@ -169,13 +169,11 @@
 		</extension>
 	</addon>
 	<addon id="plugin.video.itv.htvonline"
-		   version="1.0.7"
+		   version="1.0.8"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]HTVonline"
 		   provider-name="itv member">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" optional="true" />
-			<import addon="script.module.simplejson" />
-			<import addon="script.module.t0mm0.common" version="1.1.0"/>
 		</requires>
 		<extension point="xbmc.python.module" library="default.py" />
 		<extension point="xbmc.addon.metadata">
@@ -203,7 +201,7 @@
 		</extension>
 	</addon>
 	<addon id="plugin.video.itv.sport"
-		   version="1.1.0"
+		   version="1.1.1"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]Sport"
 		   provider-name="itv member">
 		<requires>
@@ -449,7 +447,7 @@
 			</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.15" provider-name="thaitni">
+	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.16" provider-name="thaitni">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.video.F4mProxy" optional="true"/>
