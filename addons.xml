@@ -70,13 +70,13 @@
 	</addon>
 	<addon id="plugin.audio.vietmediaF"
 		   name="[B]VietMediaF Music[/B]"
-		   version="1.0.3"
+		   version="1.0.4"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="script.module.simple.downloader" version="1.9.4" />
 			<import addon="plugin.video.youtube" version="4.4.10"/> 
-			<import addon="script.module.requests" version="1.0" />
+
 		</requires>
 		<extension point="xbmc.python.pluginsource"
 				   library="default.py">
@@ -153,7 +153,7 @@
 		</extension>
 	</addon>
 	<addon id="plugin.video.itv.hdonline"
-		   version="1.0.0"
+		   version="1.0.1"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]HDOnline"
 		   provider-name="itv member">
 		<requires>
@@ -418,21 +418,20 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="1.1.02"
+		   version="99.1.1.08"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="plugin.video.youtube" version="5.4.5" />
 			<import addon="script.module.requests" version="1.0" />
 			<import addon="script.module.simple.downloader" version="1.9.5" />
-			<import addon="script.module.urlresolver" version="3.0.27"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource"
 				   library="default.py">
 			<provides>video</provides>
 		</extension>
-		<extension point="xbmc.service" library="autorun.py" start="startup">
-		</extension>
+		<!--<extension point="xbmc.service" library="autorun.py" start="startup">
+		</extension>-->
 		<extension point="xbmc.addon.metadata">
 			<platform>all</platform>
 			<language>en</language>
@@ -447,7 +446,7 @@
 			</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.16" provider-name="thaitni">
+	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.17" provider-name="thaitni">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.video.F4mProxy" optional="true"/>
