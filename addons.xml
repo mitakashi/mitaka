@@ -418,7 +418,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.08"
+		   version="99.1.1.09"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
@@ -446,7 +446,7 @@
 			</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.17" provider-name="thaitni">
+	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.18" provider-name="thaitni">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.video.F4mProxy" optional="true"/>
