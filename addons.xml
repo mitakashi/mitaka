@@ -134,7 +134,7 @@
 		</extension>
 	</addon>
 	<addon id="plugin.video.itv.fshare"
-		   version="1.1.0"
+		   version="1.1.2"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]Kho Phim Fshare"
 		   provider-name="itv member">
 		<requires>
@@ -418,13 +418,16 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.09"
+		   version="99.1.1.17"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="plugin.video.youtube" version="5.4.5" />
 			<import addon="script.module.requests" version="1.0" />
 			<import addon="script.module.simple.downloader" version="1.9.5" />
+			<import addon="script.module.pyxbmct" />
+
+
 		</requires>
 		<extension point="xbmc.python.pluginsource"
 				   library="default.py">
@@ -446,7 +449,7 @@
 			</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.18" provider-name="thaitni">
+	<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR green]XBMC[/COLOR] [COLOR blue]HDVideo[/B][/COLOR]" version="3.5.8.19" provider-name="thaitni">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.video.F4mProxy" optional="true"/>
