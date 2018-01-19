@@ -1034,6 +1034,19 @@
 			<email/>
 		</extension>
 	</addon>
+	<addon id="script.module.framework" name="XBMC Plugin Framework" version="1.4" provider-name="">
+		<requires>
+			<import addon="xbmc.python" version="2.7.0"/>
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Framework for writing xbmc plugins</summary>
+			<description/>
+			<license/>
+			<platform>all</platform>
+			<website/>
+		</extension>
+	</addon>
 	<addon
 	  id="service.kodi4vn.iptvproxy"
 	  version="0.9"
