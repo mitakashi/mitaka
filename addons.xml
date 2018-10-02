@@ -533,16 +533,17 @@
 	</addon>
 	<addon
 	  id="plugin.video.thongld.vnplaylist"
-	  version="99.1.2"
+	  version="99.2.0.1"
 	  name="**[COLOR yellow]VN Open Playlist[/COLOR]"
 	  provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
-			<import addon="script.module.xbmcswift2" version="0.0.7" />
+			<import addon="script.module.kodiswift" version="0.0.7" />
+			<import addon="script.module.kodi4vn" version="0.0.7" />
 			<import addon="plugin.video.youtube" version="4.4.1" />
 			<import addon="script.module.httplib2" version="0.1" />
 			<import addon="service.kodi4vn.iptvproxy" version="0.1" />
-			<!--<import addon="service.kodi4vn.maintenance" version="0.1" />-->
+			<!--    <import addon="service.kodi4vn.maintenance" version="0.1" /> -->
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>video</provides>
@@ -562,9 +563,6 @@
 			<import addon="plugin.video.youtube" version="5.4.5" />
 			<import addon="script.module.requests"/>
 			<import addon="script.module.simple.downloader" version="1.9.5" />
-
-
-
 		</requires>
 		<extension point="xbmc.python.pluginsource"
 				   library="default.py">
@@ -1019,6 +1017,17 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
+	<addon id="script.module.cachecontrol" version="0.1" name="CacheControl" provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Kodi4VN Modules</summary>
+			<description>Kodi4VN Modules</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 	<addon id="script.module.flask"
 		   name="flask"
 		   version="0.11.1"
@@ -1050,6 +1059,38 @@
 			<license/>
 			<platform>all</platform>
 			<website/>
+		</extension>
+	</addon>
+	<addon id="script.module.kodi4vn" version="99.0.8" name="Kodi4VN Modules" provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.cachecontrol" />
+			<import addon="script.module.urlresolver" />
+			<import addon="script.module.future" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Kodi4VN Modules</summary>
+			<description>Kodi4VN Modules</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="script.module.kodiswift" name="kodiswift" provider-name="Aaron Frase (Sinap)" version="0.0.7.1">
+		<requires>
+			<import addon="xbmc.python" version="2.24.0"/>
+		</requires>
+		<extension library="lib" point="xbmc.python.module"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">A fork of the xbmcswift2 project</summary>
+			<description lang="en">A micro framework to enable rapid development of Kodi plugins.</description>
+			<platform>all</platform>
+			<license>GNU General Public License v3 (GPL-3)</license>
+			<source>https://github.com/Sinap/kodiswift</source>
+			<email>afrase91@gmail.com</email>
+			<language/>
+			<website/>
+			<forum/>
 		</extension>
 	</addon>
 	<addon
