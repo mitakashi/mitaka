@@ -171,6 +171,32 @@
 			<language>en</language>
 		</extension>
 	</addon>
+	<addon id="plugin.video.itvplus"
+		   version="99.2.9.5"
+		   name="[COLOR ffff0000]*ITV*[/COLOR]Plus"
+		   provider-name="itv member">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" optional="true" />
+			<import addon="script.module.requests" version="1.0" />
+			<import addon="script.module.httplib2" version="0.8.0" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<!--    <extension point="xbmc.service" library="autorun.py" start="startup">
+		</extension>   -->
+		<extension point="xbmc.addon.metadata">
+			<summary>ITV Entertainment</summary>
+			<description>
+	* Addon được ITVPlus xây dựng dựa vào nguồn dữ liệu trên internet.
+	* Với mục đích phục vụ nhu cầu giải trí cho cộng đồng Kodi. Chúng tôi đã tốn nhiều thời gian và công sức để tạo ra sản phẩm, vì vậy mong các tổ chức và cá nhân tuân thủ các quy định sau:
+	- Không tự ý sử dụng mã nguồn của addon khi chưa có sự đồng ý của nhóm lập trình viên ITVPlus.
+	- Không tự ý chỉnh sửa lại addon và chia sẻ, quảng cáo phục vụ cho nhu cầu lợi ích của một cá nhân hay tập thể nào đó.
+			</description>
+			<disclaimer lang="en">[COLOR ffff0000]Data được chia sẻ trên internet. Chúng tôi không chịu mọi trách nhiệm pháp lý.[/COLOR]</disclaimer>
+			<platform>all</platform>
+		</extension>
+	</addon>
 	<addon id="plugin.audio.vietmediaF"
 		   name="[B]VietMediaF Music[/B]"
 		   version="1.0.4"
@@ -341,7 +367,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.14"
+	  version="1.14.1"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -375,6 +401,28 @@
 		<extension point="xbmc.addon.metadata">
 			<summary>FPTPlay</summary>
 			<description>Watch free FPTPlay.net (Vietnamese) Channels</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
+	  id="plugin.video.kodi4vn.fsharephim"
+	  version="0.3.2"
+	  name="*[COLOR yellow]FSharePhim.com[/COLOR]"
+	  provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="0.7" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
+		</requires>
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Watch free movies from FSharePhim</summary>
+			<description>Watch free movies from FSharePhim (FShare VIP required)</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -464,7 +512,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.2.12"
+	  version="2.2.12.1"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -486,7 +534,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimhayplus"
-	  version="1.0.5"
+	  version="1.0.5.1"
 	  name="*[COLOR yellow]phimhayplus.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -523,7 +571,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimmedia"
-	  version="1.0.14"
+	  version="1.0.14.1"
 	  name="*[COLOR yellow]PhimMedia.tv[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -545,7 +593,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.thuvienaz"
-	  version="1.0.2"
+	  version="1.0.2.1"
 	  name="*[COLOR yellow]thuvienaz.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -567,7 +615,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.tvhay"
-	  version="1.0.15"
+	  version="1.0.15.3"
 	  name="*[COLOR yellow]TVHay.org[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -589,7 +637,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vkool"
-	  version="1.0"
+	  version="1.0.1"
 	  name="*[COLOR yellow]VKool.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -1216,6 +1264,28 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
+	<addon id="script.module.cfscrape"
+		   name="cfscrape"
+		   version="1.9.4.1"
+		   provider-name="jdollar, Kodi4VN">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.requests" version="2.9.1"/>
+		</requires>
+		<extension point="xbmc.python.module"
+				 library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Scraper that bypasses cloudflare's anti bot security</summary>
+			<description>Packed for Kodi from https://github.com/Anorov/cloudflare-scrape</description>
+			<platform>all</platform>
+			<language/>
+			<license>MIT</license>
+			<forum/>
+			<website>https://github.com/Anorov/cloudflare-scrape</website>
+			<source>http://github.com/Anorov/cloudflare-scrape</source>
+			<email>ionizedwarhead10 AT gmail.com</email>
+		</extension>
+	</addon>
 	<addon id="script.module.flask"
 		   name="flask"
 		   version="0.11.1"
@@ -1249,7 +1319,7 @@
 			<website/>
 		</extension>
 	</addon>
-	<addon id="script.module.kodi4vn" version="99.0.9" name="Kodi4VN Modules" provider-name="thongld">
+	<addon id="script.module.kodi4vn" version="99.0.9.1" name="Kodi4VN Modules" provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="script.module.requests" />
