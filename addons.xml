@@ -367,7 +367,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.14.2"
+	  version="1.14.5"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -512,7 +512,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.2.13"
+	  version="2.2.16"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -792,7 +792,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.41"
+		   version="99.1.1.42"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
