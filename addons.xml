@@ -172,7 +172,7 @@
 		</extension>
 	</addon>
 	<addon id="plugin.video.itvplus"
-		   version="99.2.9.5"
+		   version="99.2.9.6"
 		   name="[COLOR ffff0000]*ITV*[/COLOR]Plus"
 		   provider-name="itv member">
 		<requires>
