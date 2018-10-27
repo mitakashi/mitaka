@@ -367,7 +367,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.14.7"
+	  version="1.14.8"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -571,7 +571,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimmedia"
-	  version="1.0.14.3"
+	  version="1.0.14.5"
 	  name="*[COLOR yellow]PhimMedia.tv[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -659,7 +659,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vtvgo"
-	  version="0.17"
+	  version="0.18"
 	  name="*[COLOR yellow]VTV GO[/COLOR]"
 	  provider-name="thongld">
 		<requires>
