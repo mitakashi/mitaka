@@ -571,7 +571,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimmedia"
-	  version="1.0.14.5"
+	  version="1.0.14.6"
 	  name="*[COLOR yellow]PhimMedia.tv[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -610,6 +610,28 @@
 		<extension point="xbmc.addon.metadata">
 			<summary>thuvienaz.net</summary>
 			<description>Watch free thuvienaz.net (Vietnamese) Videos</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
+	  id="plugin.video.kodi4vn.thvli"
+	  version="0.2"
+	  name="*[COLOR yellow]THVLi[/COLOR]"
+	  provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="0.7" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
+		</requires>
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>THVLi</summary>
+			<description>Watch free thvli.vn (Vietnamese)</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -792,7 +814,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.46"
+		   version="99.1.1.48"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
@@ -811,12 +833,8 @@
 			<language>en</language>
 			<summary lang="en">VietMediaF Video Online</summary>
 			<description lang="en">Trung tâm giải trí trực tuyến, xem phim, shows, tivi, ca nhạc, karaoke của người Việt. 
-			Các nguồn nội dung được lấy từ các cá nhân và tổ chức cung cấp và chia sẻ miễn phí trên mạng Internet. Add-on hoạt động như một trình duyệt media, không lưu trữ hay sở hữu bất cứ nguồn nội dung nào. Người dùng chịu trách nhiệm hoàn toàn về việc xem các nguồn nội dung này.</description>
-			<disclaimer>Các nguồn nội dung được lấy từ các cá nhân và tổ chức cung cấp miễn phí trên mạng Internet. Add-on không lưu trữ hay sở hữu bất cứ nguồn nội dung nào. Người dùng chịu trách nhiệm hoàn toàn về việc xem các nguồn nội dung này.
-	- http://vietmediaf.net
-	- https://www.facebook.com/groups/vietkodi/
-	- Không được sử dụng mã nguồn mà không xin phép tác giả.
-	- Không được thay đổi tên, hoặc các thông tin liên quan đến các add-on trong group.
+			Các nguồn nội dung được lấy từ sự chia sẻ miễn phí trên mạng Internet. Add-on hoạt động như một trình duyệt media, không lưu trữ hay sở hữu bất cứ nguồn nội dung nào. Người dùng chịu trách nhiệm hoàn toàn về việc xem các nguồn nội dung này.</description>
+			<disclaimer>Add-on không lưu trữ hay sở hữu bất cứ nguồn nội dung nào. Người dùng chịu trách nhiệm hoàn toàn về việc xem các nguồn nội dung này.
 			</disclaimer>
 		</extension>
 	</addon>
@@ -1089,11 +1107,66 @@
 			<email>kodi.itvplus@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="repository.kodi4vn" name="Kodi4VN's REPO" version="1.3" provider-name="ThongLD">
+	<addon id="repository.kodi4vn" name="Kodi4VN's REPO" version="1.3.7" provider-name="ThongLD">
 		<extension point="xbmc.addon.repository" name="ThongLD's Addon Repository">
 			<info compressed="false">http://thong.viettv24.com/kodi4vn/addons.xml</info>
 			<checksum>http://thong.viettv24.com/kodi4vn/addons.xml.md5</checksum>
 			<datadir zip="true">http://thong.viettv24.com/kodi4vn/</datadir>
+			<dir>
+				<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+				<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+			</dir>
+			<data>
+				<info compressed="false">http://xml.superrepo.org/v7/.xml/jarvis/repositories/superrepo/addons.xml</info>
+				<checksum>http://md5.superrepo.org/v7/.md5/jarvis/repositories/superrepo/addons.xml.md5</checksum>
+				<datadir zip="true">http://redirect.superrepo.org/v7/addons/</datadir>
+			</data>
+			<data>
+				<info compressed="false">http://xml.superrepo.org/v7/.xml/krypton/repositories/superrepo/addons.xml</info>
+				<checksum>http://md5.superrepo.org/v7/.md5/krypton/repositories/superrepo/addons.xml.md5</checksum>
+				<datadir zip="true">http://redirect.superrepo.org/v7/addons/</datadir>
+			</data>
+			<dir>
+				<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+				<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="true">https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml</info>
+				<checksum>https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/hieuhienvn/hieuhien.vn/raw/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="true">http://repo.kodi.vn/00-VMFrepo/addons.xml</info>
+				<checksum>http://repo.kodi.vn/00-VMFrepo/addons.xml.md5</checksum>
+				<datadir zip="true">http://repo.kodi.vn/00-VMFrepo/</datadir>
+			</dir>
+			<dir>
+				<info compressed="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://github.com/jdf76/repository/raw/master/addons.xml</info>
+				<checksum>https://github.com/jdf76/repository/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/jdf76/repository/raw/master/zips</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
+			</dir>
+			<data>
+				<info compressed="false">https://github.com/xbmc-adult/xbmc-adult/raw/ghmaster/addons.xml</info>
+				<checksum>https://github.com/xbmc-adult/xbmc-adult/raw/ghmaster/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/xbmc-adult/xbmc-adult/raw/ghmaster</datadir>
+			</data>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>Install Kodi4VN Addons</summary>
