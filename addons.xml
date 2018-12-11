@@ -199,12 +199,13 @@
 	</addon>
 	<addon id="plugin.audio.vietmediaF"
 		   name="[B]VietMediaF Music[/B]"
-		   version="1.0.4"
+		   version="1.0.5"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="script.module.simple.downloader" version="1.9.4" />
 			<import addon="plugin.video.youtube" version="4.4.10"/> 
+
 		</requires>
 		<extension point="xbmc.python.pluginsource"
 				   library="default.py">
@@ -367,7 +368,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.14.10"
+	  version="1.14.11"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -512,7 +513,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.2.20"
+	  version="2.2.21"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -571,7 +572,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimmedia"
-	  version="1.0.15.1"
+	  version="1.0.16"
 	  name="*[COLOR yellow]PhimMedia.tv[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -615,7 +616,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.thvli"
-	  version="0.3"
+	  version="0.4"
 	  name="*[COLOR yellow]THVLi[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -637,7 +638,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.tvhay"
-	  version="1.0.16"
+	  version="1.0.17"
 	  name="*[COLOR yellow]TVHay.org[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -659,7 +660,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vkool"
-	  version="1.0.3"
+	  version="1.0.6"
 	  name="*[COLOR yellow]VKool.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -814,7 +815,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.50"
+		   version="99.1.1.52"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
