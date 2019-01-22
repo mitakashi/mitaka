@@ -444,7 +444,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.hplus.vn"
-	  version="0.7"
+	  version="99.0.7"
 	  name="*[COLOR yellow]HPlus Online[/COLOR]"
 	  provider-name="thongld">
 		<requires>
