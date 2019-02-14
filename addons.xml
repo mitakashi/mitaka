@@ -368,14 +368,14 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.19"
+	  version="1.20"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.kodiswift" />
 			<import addon="script.module.kodi-six" />
-			<import addon="script.module.kodi4vn" version="0.7" />
+			<import addon="script.module.kodi4vn" version="1.0" />
 			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
 			<import addon="script.module.urlresolver"/>
@@ -407,14 +407,14 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fsharephim"
-	  version="0.3.5"
+	  version="0.3.6"
 	  name="*[COLOR yellow]FSharePhim.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.kodiswift" />
 			<import addon="script.module.kodi-six" />
-			<import addon="script.module.kodi4vn" version="0.7" />
+			<import addon="script.module.kodi4vn" version="1.0" />
 			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
 			<import addon="script.module.urlresolver"/>
@@ -513,14 +513,14 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.3.2"
+	  version="2.3.3"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.kodiswift" />
 			<import addon="script.module.kodi-six" />
-			<import addon="script.module.kodi4vn" />
+			<import addon="script.module.kodi4vn" version="1.0"/>
 			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
 			<import addon="script.module.urlresolver"/>
@@ -535,7 +535,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimhayplus"
-	  version="1.0.5.2"
+	  version="1.0.6"
 	  name="*[COLOR yellow]phimhayplus.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -544,7 +544,7 @@
 			<import addon="script.module.kodi-six" />
 			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
-			<import addon="script.module.kodi4vn" version="0.7"/>
+			<import addon="script.module.kodi4vn" version="1.0"/>
 			<import addon="script.module.urlresolver"/>
 			<import addon="script.module.futures"/>
 		</requires>
@@ -572,7 +572,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimmedia"
-	  version="1.0.21"
+	  version="1.0.23"
 	  name="*[COLOR yellow]PhimMedia.tv[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -581,7 +581,7 @@
 			<import addon="script.module.kodi-six" />
 			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
-			<import addon="script.module.kodi4vn" version="0.7"/>
+			<import addon="script.module.kodi4vn" version="1.0"/>
 			<import addon="script.module.urlresolver"/>
 			<import addon="script.module.futures"/>
 		</requires>
@@ -638,7 +638,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.tvhay"
-	  version="1.0.18"
+	  version="1.0.19"
 	  name="*[COLOR yellow]TVHay.org[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -647,7 +647,7 @@
 			<import addon="script.module.kodi-six" />
 			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
-			<import addon="script.module.kodi4vn" version="0.6"/>
+			<import addon="script.module.kodi4vn" version="1.0"/>
 			<import addon="script.module.urlresolver"/>
 			<import addon="script.module.futures"/>
 		</requires>
@@ -815,7 +815,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.58"
+		   version="99.1.1.71"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
@@ -1109,11 +1109,13 @@
 			<email>kodi.itvplus@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="repository.kodi4vn" name="Kodi4VN's REPO" version="1.3.11.4" provider-name="ThongLD">
+	<addon id="repository.kodi4vn" name="Kodi4VN's REPO" version="1.3.12.1" provider-name="ThongLD">
 		<extension point="xbmc.addon.repository" name="ThongLD's Addon Repository">
-			<info compressed="false">http://thong.viettv24.com/kodi4vn/addons.xml</info>
-			<checksum>http://thong.viettv24.com/kodi4vn/addons.xml.md5</checksum>
-			<datadir zip="true">http://thong.viettv24.com/kodi4vn/</datadir>
+			<dir>
+				<info compressed="false">http://thong.viettv24.com/kodi4vn/addons.xml</info>
+				<checksum>http://thong.viettv24.com/kodi4vn/addons.xml.md5</checksum>
+				<datadir zip="true">http://thong.viettv24.com/kodi4vn/</datadir>
+			</dir>
 			<dir>
 				<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
 				<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
@@ -1321,7 +1323,7 @@
 	</addon>
 	<addon id="script.module.cfscrape"
 		   name="cfscrape"
-		   version="1.9.4.1"
+		   version="1.9.4.2"
 		   provider-name="jdollar, Kodi4VN">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
@@ -1374,7 +1376,7 @@
 			<website/>
 		</extension>
 	</addon>
-	<addon id="script.module.kodi4vn" version="99.0.9.2" name="Kodi4VN Modules" provider-name="thongld">
+	<addon id="script.module.kodi4vn" version="99.1.0" name="Kodi4VN Modules" provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="script.module.requests" />
