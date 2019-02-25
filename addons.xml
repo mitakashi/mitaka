@@ -368,7 +368,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.20"
+	  version="1.22"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -513,7 +513,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.3.3"
+	  version="2.3.5"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -660,14 +660,14 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vkool"
-	  version="1.0.7"
+	  version="1.0.9"
 	  name="*[COLOR yellow]VKool.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.kodiswift" />
 			<import addon="script.module.kodi-six" />
-			<import addon="script.module.kodi4vn" />
+			<import addon="script.module.kodi4vn" version="1.0"/>
 			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
 			<import addon="script.module.urlresolver"/>
@@ -699,7 +699,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.xomgiaitri"
-	  version="2.0.5"
+	  version="2.0.7"
 	  name="*[COLOR yellow]XomGiaiTri.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -815,7 +815,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.71"
+		   version="99.1.1.78"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
