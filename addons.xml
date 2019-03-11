@@ -368,7 +368,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.22"
+	  version="1.24"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -385,6 +385,28 @@
 		<extension point="xbmc.addon.metadata">
 			<summary>BiluTV</summary>
 			<description>Watch free BiluTV.com (Vietnamese) Channels</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
+	  id="plugin.video.kodi4vn.fcine"
+	  version="1.0.3"
+	  name="*[COLOR yellow]FCine.net[/COLOR]"
+	  provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="1.0" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
+		</requires>
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>FCine</summary>
+			<description>Watch free FCine.net (Vietnamese) Channels</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -407,7 +429,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fsharephim"
-	  version="0.3.6"
+	  version="1.0"
 	  name="*[COLOR yellow]FSharePhim.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -477,6 +499,28 @@
 		</extension>
 	</addon>
 	<addon
+	  id="plugin.video.kodi4vn.kenh88"
+	  version="1.0.2"
+	  name="*[COLOR yellow]Kenh88.com[/COLOR]"
+	  provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="1.0" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
+		</requires>
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Kenh88</summary>
+			<description>Watch free kenh88.com (Vietnamese) Channels</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
 	  id="plugin.video.kodi4vn.livestream.com"
 	  version="0.2.1"
 	  name="*[COLOR yellow]LiveStream.com[/COLOR]"
@@ -513,7 +557,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.3.5"
+	  version="2.3.7"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -572,7 +616,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimmedia"
-	  version="1.0.23"
+	  version="1.0.26"
 	  name="*[COLOR yellow]PhimMedia.tv[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -638,7 +682,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.tvhay"
-	  version="1.0.19"
+	  version="1.0.21"
 	  name="*[COLOR yellow]TVHay.org[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -660,7 +704,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vkool"
-	  version="1.0.9"
+	  version="1.0.10"
 	  name="*[COLOR yellow]VKool.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -698,21 +742,65 @@
 		</extension>
 	</addon>
 	<addon
+	  id="plugin.video.kodi4vn.vuviphim"
+	  version="1.0.6"
+	  name="*[COLOR yellow]VuViPhim.com[/COLOR]"
+	  provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="1.0" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
+		</requires>
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>VuViPhim</summary>
+			<description>Watch free VuViPhim.com (Vietnamese) Channels</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
 	  id="plugin.video.kodi4vn.xomgiaitri"
-	  version="2.0.7"
+	  version="2.0.13"
 	  name="*[COLOR yellow]XomGiaiTri.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
-			<import addon="script.module.requests" version="1" />
-			<import addon="script.module.urlresolver" version="0.0.1"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="1.0" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
 		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>XomGiaiTri</summary>
+			<description>Watch free XomGiaiTri.com (Vietnamese) Channels</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
+	  id="plugin.video.sctv"
+	  version="3.2.4"
+	  name="SCTV"
+	  provider-name="thong.ld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.xbmcswift2" version="1.3.1" />
+			<import addon="script.module.requests" version="1.0" />
+		</requires>
+		<extension library="default.py" point="xbmc.python.pluginsource">
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary>xomiaitri.com</summary>
-			<description>Watch free xomiaitri.com (Vietnamese) Videos</description>
+			<summary>Truyền hình SCTV</summary>
+			<description>Nhóm kênh chính thức của truyền hình SCTV</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -1109,7 +1197,7 @@
 			<email>kodi.itvplus@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="repository.kodi4vn" name="Kodi4VN's REPO" version="1.3.12.1" provider-name="ThongLD">
+	<addon id="repository.kodi4vn" name="Kodi4VN's REPO" version="1.3.12.2" provider-name="ThongLD">
 		<extension point="xbmc.addon.repository" name="ThongLD's Addon Repository">
 			<dir>
 				<info compressed="false">http://thong.viettv24.com/kodi4vn/addons.xml</info>
@@ -1145,11 +1233,6 @@
 				<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
 			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
@@ -1376,7 +1459,7 @@
 			<website/>
 		</extension>
 	</addon>
-	<addon id="script.module.kodi4vn" version="99.1.0" name="Kodi4VN Modules" provider-name="thongld">
+	<addon id="script.module.kodi4vn" version="99.1.0.3" name="Kodi4VN Modules" provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="script.module.requests" />
@@ -1425,6 +1508,31 @@
 			<summary>Localhost proxy for iptv</summary>
 			<description>Localhost proxy urlresolver for IPTV</description>
 			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="service.subtitles.subscene"
+		   name="Subscene.com"
+		   version="1.7.2.2"
+		   provider-name="CrowleyAJ, Kodi4VN">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+		</requires>
+		<extension point="xbmc.subtitle.module"
+				   library="service.py"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Get subtitles from Subscene.com</summary>
+			<description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
+	Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
+			<disclaimer lang="en"/>
+			<platform>all</platform>
+			<language/>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
+			<website/>
+			<email/>
+			<source>https://github.com/manacker/service.subtitles.subscene</source>
 		</extension>
 	</addon>
 	<addon id="service.subtitles.xshare" name="[COLOR red][B]xshare[/COLOR] [COLOR blue]subtitles[/B][/COLOR]" version="1.2.5" provider-name="thaitni">
