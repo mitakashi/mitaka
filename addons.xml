@@ -765,7 +765,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.xomgiaitri"
-	  version="2.0.13"
+	  version="2.0.14"
 	  name="*[COLOR yellow]XomGiaiTri.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -903,7 +903,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.78"
+		   version="99.1.1.86"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
