@@ -17,6 +17,28 @@
 			<email>hcmlike@gmail.com</email>
 		</extension>
 	</addon>
+	<addon id="plugin.video.bimozie" name="BimoZie" version="0.1.4" provider-name="billy.nguyen">
+		<requires>
+			<import addon="xbmc.python" version="2.25.0"/>
+			<import addon="script.module.beautifulsoup4" version="4.3.1"/>
+			<import addon="script.module.pycryptodome" version="3.4.1" optional="true"/>
+			<import addon="script.module.resolveurl" version="5.0.24"/>
+			<import addon="script.module.requests" version="2.7.0" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Bimozie addon</summary>
+			<description>This plugin allows you to watch movies from several vietnamese websites likes bilutv phimmedia...
+			</description>
+			<disclaimer>The provider is not responsible for any issues caused by using this addon.
+			</disclaimer>
+			<platform>all</platform>
+			<email>billythekidsde@gmail.com</email>
+			<source>https://github.com/billythekids/plugin.video.bimozie</source>
+		</extension>
+	</addon>
 	<addon
 	  id="plugin.video.HieuHien.vn"
 	  version="2.0.1"
@@ -390,7 +412,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fcine"
-	  version="1.0.5"
+	  version="1.0.7"
 	  name="*[COLOR yellow]FCine.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -429,7 +451,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fsharephim"
-	  version="1.0"
+	  version="1.0.1"
 	  name="*[COLOR yellow]FSharePhim.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -638,7 +660,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.thuvienaz"
-	  version="1.0.2.2"
+	  version="1.0.2.3"
 	  name="*[COLOR yellow]thuvienaz.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -765,7 +787,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.xomgiaitri"
-	  version="2.0.18"
+	  version="2.0.19"
 	  name="*[COLOR yellow]XomGiaiTri.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -903,7 +925,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.86"
+		   version="99.1.1.92"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
@@ -1406,8 +1428,8 @@
 	</addon>
 	<addon id="script.module.cfscrape"
 		   name="cfscrape"
-		   version="1.9.4.3"
-		   provider-name="jdollar, Kodi4VN">
+		   version="1.9.4.4"
+		   provider-name="jdollar, Kodi4VN, thuongtin">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 			<import addon="script.module.requests" version="2.9.1"/>
@@ -1512,11 +1534,10 @@
 	</addon>
 	<addon id="service.subtitles.subscene"
 		   name="Subscene.com"
-		   version="1.7.2.2"
-		   provider-name="CrowleyAJ, Kodi4VN">
+		   version="1.7.2.5"
+		   provider-name="CrowleyAJ, Kodi4VN, thuongtin.com">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
-			<import addon="script.module.cfscrape" />
 			<import addon="script.module.requests" />
 		</requires>
 		<extension point="xbmc.subtitle.module"
