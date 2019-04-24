@@ -390,7 +390,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.26"
+	  version="1.27"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -429,6 +429,28 @@
 		<extension point="xbmc.addon.metadata">
 			<summary>FCine</summary>
 			<description>Watch free FCine.net (Vietnamese) Channels</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon
+	  id="plugin.video.kodi4vn.fimfast"
+	  version="0.2"
+	  name="*[COLOR yellow]fimfast.net[/COLOR]"
+	  provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="1.0" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
+		</requires>
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Fimfast.com</summary>
+			<description>Watch free fimfast.com (Vietnamese) Channels</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -522,7 +544,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.kenh88"
-	  version="1.0.2"
+	  version="1.0.3"
 	  name="*[COLOR yellow]Kenh88.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -579,7 +601,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.3.8"
+	  version="2.3.9"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -704,7 +726,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.tvhay"
-	  version="1.0.21"
+	  version="1.0.23"
 	  name="*[COLOR yellow]TVHay.org[/COLOR]"
 	  provider-name="thongld">
 		<requires>
