@@ -809,7 +809,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.xomgiaitri"
-	  version="2.0.19"
+	  version="2.0.19.1"
 	  name="*[COLOR yellow]XomGiaiTri.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -821,6 +821,7 @@
 			<import addon="script.module.requests" />
 			<import addon="script.module.urlresolver"/>
 			<import addon="script.module.futures"/>
+			<import addon="script.video.F4mProxy" />
 		</requires>
 		<extension point="xbmc.python.module" library="default.py" />
 		<extension point="xbmc.addon.metadata">
