@@ -415,22 +415,22 @@
 	  version="1.0.8"
 	  name="*[COLOR yellow]FCine.net[/COLOR]"
 	  provider-name="thongld">
-	  <requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.kodiswift" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.kodi4vn" version="1.0" />
-		<import addon="script.module.cfscrape" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.urlresolver"/>
-		<import addon="script.module.futures"/>
-	  </requires>
-	  <extension point="xbmc.python.module" library="default.py" />
-	  <extension point="xbmc.addon.metadata">
-		<summary>FCine</summary>
-		<description>Watch free FCine.net (Vietnamese) Channels</description>
-		<platform>all</platform>
-	  </extension>
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.kodiswift" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.kodi4vn" version="1.0" />
+			<import addon="script.module.cfscrape" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.urlresolver"/>
+			<import addon="script.module.futures"/>
+		</requires>
+		<extension point="xbmc.python.module" library="default.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary>FCine</summary>
+			<description>Watch free FCine.net (Vietnamese) Channels</description>
+			<platform>all</platform>
+		</extension>
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fimfast"
@@ -1556,7 +1556,7 @@
 	</addon>
 	<addon id="service.subtitles.subscene"
 		   name="Subscene.com"
-		   version="1.7.2.5"
+		   version="1.7.2.8.0"
 		   provider-name="CrowleyAJ, Kodi4VN, thuongtin.com">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
