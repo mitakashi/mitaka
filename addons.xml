@@ -17,13 +17,14 @@
 			<email>hcmlike@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.0" provider-name="billy.nguyen">
+	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.2" provider-name="billy.nguyen">
 		<requires>
 			<import addon="xbmc.python" version="2.25.0"/>
 			<import addon="script.module.beautifulsoup4" version="4.3.1"/>
 			<import addon="script.module.pycryptodome" version="3.4.1" optional="true"/>
 			<import addon="script.module.resolveurl" version="5.0.24"/>
 			<import addon="script.module.requests" version="2.7.0" />
+			<import addon="script.module.youtube.dl" version="18.1107.0"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>video</provides>
@@ -601,7 +602,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.3.9"
+	  version="2.3.10"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -1557,7 +1558,7 @@
 	</addon>
 	<addon id="service.subtitles.subscene"
 		   name="Subscene.com"
-		   version="1.7.2.8.0"
+		   version="1.7.2.8.1"
 		   provider-name="CrowleyAJ, Kodi4VN, thuongtin.com">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
