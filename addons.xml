@@ -17,7 +17,7 @@
 			<email>hcmlike@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.2" provider-name="billy.nguyen">
+	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.2.1" provider-name="billy.nguyen">
 		<requires>
 			<import addon="xbmc.python" version="2.25.0"/>
 			<import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -391,7 +391,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.27"
+	  version="1.28"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -949,7 +949,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.95"
+		   version="99.1.1.98"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
@@ -1521,7 +1521,7 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-	<addon id="script.module.kodiswift" name="kodiswift" provider-name="Aaron Frase (Sinap)" version="0.0.7.1">
+	<addon id="script.module.kodiswift" name="kodiswift" provider-name="Aaron Frase (Sinap)" version="0.0.8">
 		<requires>
 			<import addon="xbmc.python" version="2.24.0"/>
 		</requires>
@@ -1531,7 +1531,7 @@
 			<description lang="en">A micro framework to enable rapid development of Kodi plugins.</description>
 			<platform>all</platform>
 			<license>GNU General Public License v3 (GPL-3)</license>
-			<source>https://github.com/Sinap/kodiswift</source>
+			<source>https://github.com/afrase/kodiswift</source>
 			<email>afrase91@gmail.com</email>
 			<language/>
 			<website/>
