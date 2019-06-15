@@ -17,7 +17,7 @@
 			<email>hcmlike@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.2.2" provider-name="billy.nguyen">
+	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.6.1" provider-name="billy.nguyen">
 		<requires>
 			<import addon="xbmc.python" version="2.25.0"/>
 			<import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -31,7 +31,7 @@
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>Bimozie addon</summary>
-			<description>This plugin allows you to watch movies from several vietnamese websites likes bilutv phimmedia...
+			<description>This plugin allows you to watch movies from several vietnamese websites likes phimmoi phimmedia hdvietnam...
 			</description>
 			<disclaimer>The provider is not responsible for any issues caused by using this addon.
 			</disclaimer>
@@ -391,7 +391,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.28"
+	  version="1.30"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -413,7 +413,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fcine"
-	  version="1.0.8"
+	  version="1.0.9"
 	  name="*[COLOR yellow]FCine.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -474,7 +474,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fsharephim"
-	  version="1.0.1"
+	  version="1.0.2"
 	  name="*[COLOR yellow]FSharePhim.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -602,7 +602,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.phimbathu"
-	  version="2.3.10"
+	  version="2.3.12"
 	  name="*[COLOR yellow]PhimBatHu[/COLOR]"
 	  provider-name="thongld">
 		<requires>
