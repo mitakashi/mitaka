@@ -17,7 +17,7 @@
 			<email>hcmlike@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.14" provider-name="billy.nguyen">
+	<addon id="plugin.video.bimozie" name="BimoZie" version="0.2.14.1" provider-name="billy.nguyen">
 		<requires>
 			<import addon="xbmc.python" version="2.25.0"/>
 			<import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -474,7 +474,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fsharephim"
-	  version="1.0.4"
+	  version="1.0.5"
 	  name="*[COLOR yellow]FSharePhim.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -949,7 +949,7 @@
 	</addon>
 	<addon id="plugin.video.vietmediaF"
 		   name="[B]VietMediaF[/B]"
-		   version="99.1.1.99"
+		   version="99.1.2.01"
 		   provider-name="VietMedia">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
