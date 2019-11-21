@@ -748,7 +748,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vkool"
-	  version="1.0.11"
+	  version="1.0.12"
 	  name="*[COLOR yellow]VKool.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
