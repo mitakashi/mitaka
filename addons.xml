@@ -434,7 +434,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.fimfast"
-	  version="0.3"
+	  version="0.7"
 	  name="*[COLOR yellow]fimfast.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
