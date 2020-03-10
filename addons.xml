@@ -17,12 +17,12 @@
 			<email>hcmlike@gmail.com</email>
 		</extension>
 	</addon>
-	<addon id="plugin.video.bimozie" name="BimoZie" version="0.3.9" provider-name="billy.nguyen">
+	<addon id="plugin.video.bimozie" name="BimoZie" version="0.3.17" provider-name="billy.nguyen">
 		<requires>
 			<import addon="xbmc.python" version="2.25.0"/>
 			<import addon="script.module.beautifulsoup4" version="4.3.1"/>
 			<import addon="script.module.urlresolver" version="5.0.40"/>
-			<import addon="script.module.requests" version="2.7.0" />
+			<import addon="script.module.requests" version="2.7.0"/>
 			<import addon="script.module.youtube.dl" version="18.1107.0"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
@@ -30,9 +30,19 @@
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>Bimozie addon</summary>
-			<description>This plugin allows you to watch movies from several vietnamese websites vkool phimmoi phimmedia hdvietnam...
+			<description>This plugin allows you to watch movies from several vietnamese websites vkool phimmoi phimmedia
+				hdvietnam...
 			</description>
 			<disclaimer>The provider is not responsible for any issues caused by using this addon.
+				Due to the nature of our content, we are not responsible for the content streamed to your device and neither
+				do we condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have
+				the copyright agreements in place and are entitled to access this content.
+				We do not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd
+				rip, mp3, mp4, torrent, ipod, psp). KodiTips is not responsible for the accuracy, compliance, copyright,
+				legality, decency, or any other aspect of the content of streamed from your device. If you have any legal
+				issues please contact the appropriate media file owners or host sites.
+				We have no control over the links on any site that we provide a link to. If you see any form of
+				infringements, please contact appropriate media file owners or host sites immediately.
 			</disclaimer>
 			<platform>all</platform>
 			<email>billythekidsde@gmail.com</email>
@@ -390,7 +400,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.bilutv"
-	  version="1.32"
+	  version="1.33"
 	  name="*[COLOR yellow]BiluTV.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -682,7 +692,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.thuvienaz"
-	  version="1.0.2.3"
+	  version="1.0.2.6"
 	  name="*[COLOR yellow]thuvienaz.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -748,7 +758,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.vkool"
-	  version="1.0.12"
+	  version="1.0.14"
 	  name="*[COLOR yellow]VKool.net[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -809,7 +819,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.xomgiaitri"
-	  version="2.0.20"
+	  version="2.0.21"
 	  name="*[COLOR yellow]XomGiaiTri.com[/COLOR]"
 	  provider-name="thongld">
 		<requires>
@@ -821,7 +831,6 @@
 			<import addon="script.module.requests" />
 			<import addon="script.module.urlresolver"/>
 			<import addon="script.module.futures"/>
-			<import addon="script.video.F4mProxy" />
 		</requires>
 		<extension point="xbmc.python.module" library="default.py" />
 		<extension point="xbmc.addon.metadata">
