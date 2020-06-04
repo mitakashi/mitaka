@@ -738,7 +738,7 @@
 	</addon>
 	<addon
 	  id="plugin.video.kodi4vn.tvhay"
-	  version="1.0.25"
+	  version="1.0.26"
 	  name="*[COLOR yellow]TVHay.org[/COLOR]"
 	  provider-name="thongld">
 		<requires>
